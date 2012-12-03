@@ -1,0 +1,16 @@
+$def with (form, embed)
+
+$if form.d.text:
+    Let's turn this poem: <em>$form.d.text</em> into playlist.
+    </br>
+    <iframe src=$:embed width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+    </br>
+$else:
+    Let's write some <em>poem</em>
+    </br>
+    e.g. Snow day? Watch it fall... white and pretty!
+
+<form action="" method="get">
+$:form.render()
+</form>
+

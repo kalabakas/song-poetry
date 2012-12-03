@@ -1,0 +1,36 @@
+$def with (page)
+
+<html>
+<head>
+    <title>SongPoetry</title>
+    <style>
+        #header {
+            background-image: url(http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/otis_redding.png);
+            background-position: initial initial;
+            background-repeat: initial initial;
+            text-align: center;
+            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+            font-size: 22px;
+            color: #444;
+        }
+
+        #container {
+            margin-left:auto;
+            margin-right:auto;
+            width:300px;
+            font-size: 16px;
+            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+            color: #999;
+        }
+    </style>
+</head>
+<body style="background-image: url(http://subtlepatterns.com/patterns/pool_table.png); background-position: initial initial; background-repeat: initial initial;">
+<div id='header'>
+<h1>SongPoetry</h1>
+</div>
+<div id='container'>
+$:page
+</div>
+</body>
+</html>
+

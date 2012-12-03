@@ -1,4 +1,8 @@
 song-poetry
 ===========
 
-Turn your poem into playlist (powered by Spotify Metadata API) 
+Turns a poem (text) into playlist (powered by Spotify Metadata API)
+
+##Built with:
+- [webpy.org - http://webpy.org/]
+
