@@ -12,7 +12,7 @@ def getPlaylist(text):
     return playlist
 
 # Returns a list of songs.
-# Backward chaining, depth-first.
+# Forward chaining, depth-first.
 # LongestMatch.
 def getSonglist(tokens=[], minSongSize=1, maxSongSize=5):
     length = len(tokens)
